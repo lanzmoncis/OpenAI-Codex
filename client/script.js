@@ -87,7 +87,7 @@ const handleSubmit = async (e) => {
       "Content-Type": "application.json",
     },
     body: JSON.stringify({
-      prompt: data.get("promp"),
+      prompt: data.get("prompt"),
     }),
   });
 
