@@ -3,6 +3,8 @@ import * as dotenv from "dotenv";
 import cors from "cors";
 import { Configuration, OpenAIApi } from "openai";
 
+//Server
+
 dotenv.config();
 console.log(process.env.OPENAI_API_KEY);
 
