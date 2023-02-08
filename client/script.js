@@ -79,7 +79,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from server -> bot's response
 
-  const response = await fetch("http://localhost:9090", {
+  const response = await fetch("http://localhost:5345", {
     method: "POST",
     headers: {
       "Content-Type": "application.json",

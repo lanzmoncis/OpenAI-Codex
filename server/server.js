@@ -46,6 +46,6 @@ app.post("/", async (req, res) => {
   }
 });
 
-app.listen(9090, () =>
-  console.log("Server is listening on port http://localhost:9090")
+app.listen(5345, () =>
+  console.log("Server is listening on port http://localhost:5345")
 );
